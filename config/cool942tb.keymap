@@ -16,9 +16,10 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
+        clear_ble_setting {
+            bindings = <&bt BT_CLR_ALL>;
             key-positions = <11 12>;
+            layers = <1>;
         };
 
         shift_tab {
