@@ -23,8 +23,9 @@
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 0>;
+            bindings = <&mo 1>;
+            key-positions = <34 33>;
+            layers = <0>;
         };
 
         muhennkann {
