@@ -47,6 +47,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        alt+grave {
+            bindings = <&kp LA(GRAVE)>;
+            key-positions = <13 14>;
+        };
     };
 
     macros {
